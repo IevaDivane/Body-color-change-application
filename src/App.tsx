@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './App.scss';
 import { ToastContainer, toast } from 'react-toastify';
 import ApplyButton from './components/applyButton/ApplyButton';
-import ApplyAndSaveButton from './components/apply&SaveButton/ApplyAndSaveButton';
+import ApplyAndSaveButton from './components/applyAndSaveButton/ApplyAndSaveButton';
 import ClearButton from './components/clearButton/ClearButton';
 import 'react-toastify/dist/ReactToastify.css';
 import onChange = toast.onChange;
