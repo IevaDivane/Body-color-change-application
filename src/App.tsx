@@ -51,7 +51,7 @@ const App = () => {
           <input
             className={!isColor(inputValue) && inputValue ? 'input valid-input' : 'input'}
             type="text"
-            title="Accepts just named, #, hsla and RGB"
+            title="Accepts just named, #, hsl and rgb"
             placeholder="Write color here"
             value={inputValue}
             ref={inputElementRef}
