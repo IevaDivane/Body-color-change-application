@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './App.scss';
 import { ToastContainer, toast } from 'react-toastify';
-import ApplyButton from './components/ApplyButton/ApplyButton';
-import ApplyAndSaveButton from './components/Apply&SaveButton/ApplyAndSaveButton';
-import ClearButton from './components/ClearButton/ClearButton';
+import ApplyButton from './components/applyButton/ApplyButton';
+import ApplyAndSaveButton from './components/apply&SaveButton/ApplyAndSaveButton';
+import ClearButton from './components/clearButton/ClearButton';
 import 'react-toastify/dist/ReactToastify.css';
 import onChange = toast.onChange;
 
