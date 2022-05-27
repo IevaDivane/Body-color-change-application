@@ -41,7 +41,7 @@ const App = () => {
   const isColor = (strColor:string) => {
     const s = new Option().style;
     s.color = strColor;
-    return s.color !== '';
+    return s.color;
   };
 
   return (
